@@ -1,0 +1,41 @@
+# --- Private API Keys & Credentials ---
+.env
+
+# --- Python Virtual Environments ---
+.venv/
+.ven/
+env/
+venv/
+ENV/
+
+# --- Python Cache & Temporary Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.poetry/
+
+# --- Databases & Local State ---
+*.db
+*.db-journal
+*.sqlite3
+
+# --- Local Generated Reports & Scratch Folders ---
+# This ignores generated testing artifacts while preserving code templates
+scratch/
+test_invoice.pdf
+test_analytics.pptx
+test_patched_compilation.py
+copy_tests.py
+publish_*.py
+
+# --- Operating System & IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
